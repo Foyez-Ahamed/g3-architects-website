@@ -9,12 +9,17 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* shared styles */
+
+/* shared styles */
+
 /* header section styles */
  header{
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 200px;
  }
 
+ /* navbar styles */
  nav{
     display: flex;
     justify-content: space-between;
@@ -22,7 +27,7 @@ body{
  }
 
  .nav-title{
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
     color: #131313;
  }
@@ -38,8 +43,31 @@ body{
 
  nav li a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 500;
     color: #424242;
  }
+ /* navbar styles */
+
+ /* banner styles */
+  .banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .banner-title{
+    font-size: 3.9rem;
+    font-weight: 700;
+    color: #131313;
+  }
+
+  .banner-description{
+    color: #727272;
+  }
+
+  .banner-image{
+   width: 100%;
+  }
+ /* banner styles */
 /* header section styles */
