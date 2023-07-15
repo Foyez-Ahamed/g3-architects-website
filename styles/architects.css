@@ -8,3 +8,38 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header section styles */
+ header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 200px;
+ }
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .nav-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+ }
+
+ nav > ul{
+    display: flex;
+ }
+
+ nav li{
+    list-style-type: none;
+    margin-left: 30px;
+ }
+
+ nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+ }
+/* header section styles */
