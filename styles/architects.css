@@ -305,6 +305,25 @@ body{
 /* main section styles */
 
 
+/* footer section styles */
+ footer{
+   max-width: 92%;
+   margin: 100px auto 100px auto;
+   background-color: #FFF4E7;
+   padding: 30px;
+   border-radius: 5px;
+ }
+
+ .footer-title{
+   font-size: 1.2rem;
+   text-align: center;
+   color: #727272;
+ }
+
+
+/* footer section styles */
+
+
 
 
 
@@ -382,6 +401,10 @@ body{
       width: 100%;
       padding: 0;
       margin: 0;
+    }
+
+    footer{
+      padding: 20px;
     }
     
 
