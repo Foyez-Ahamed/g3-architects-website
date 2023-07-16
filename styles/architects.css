@@ -11,11 +11,11 @@ body{
 
 /* shared styles */
 .btn-primary{
-    padding: 20px 25px;
-    border-radius: 8px;
+    padding: 15px 30px;
+    border-radius: 5px;
     background: #FF900E;
     border: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #fff;
 }
@@ -24,7 +24,7 @@ body{
 /* header section styles */
  header{
     background-color: rgba(255, 144, 14, 0.10);
-    padding: 50px 200px;
+    padding: 50px;
  }
 
  /* navbar styles */
@@ -35,7 +35,7 @@ body{
  }
 
  .nav-title{
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #131313;
  }
@@ -61,13 +61,13 @@ body{
 
  /* banner styles */
   .banner-content{
-    max-width: 800px;
+    max-width: 600px;
     text-align: center;
     margin: 50px auto;
   }
 
   .banner-title{
-    font-size: 3.4rem;
+    font-size: 2.8rem;
     font-weight: 700;
     color: #131313;
   }
@@ -79,6 +79,7 @@ body{
 
   .banner-image{
    width: 100%;
+   margin: 0 auto;
    height: auto;
   }
  /* banner styles */
@@ -88,13 +89,14 @@ body{
 
 /* main section styles */
   main{
-    max-width: 1440px;
+    max-width: 92%;
     margin: 70px auto;
   }
 
   /* teams featured section styles */
   .teams-featured{
     display: flex;
+    justify-content: space-between;
     align-items: center;
   }
 
@@ -105,12 +107,21 @@ body{
   }
 
   .teams-content{
+    width: 50%;
     padding-left: 70px;
     padding-right: 70px;
   }
 
+  .teams-image{
+    width: 50%;
+  }
+
+  .teams-image img{
+    width: 100%;
+ }
+
   .teams-title{
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     margin-bottom: 10px;
   }
 
@@ -130,6 +141,7 @@ body{
   }
 
   .teams-description{
+    font-size: 1rem;
     color: #727272;
     margin-bottom: 20px;
   }
@@ -152,17 +164,27 @@ body{
         gap: 20px;
      }
 
-     .banner-title {
+     /* .banner-title {
         font-size: 2rem;
-     }
+     } */
 
      .teams-featured{
         flex-direction: column;
+        width: 100%;
         gap: 30px;
      }
 
      .teams-image{
         grid-template-columns: 1fr;
+        padding-left: 0px;
+     }
+
+     .teams-content{
+      width: 100%;
+     }
+
+     .teams-image{
+      width: 100%;
      }
 
   }
@@ -180,7 +202,19 @@ body{
      }
 
     .teams-featured{
-        flex-direction: column;
-     }
+      flex-direction: column;
+      width: 100%;
+      gap: 30px;
+   }
+
+   .teams-content{
+    padding: 0;
+    width: 100%;
+   }
+
+   .teams-image{
+    width: 100%;
+   }
+
 }
 /* responsive for medium device */
