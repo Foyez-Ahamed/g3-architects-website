@@ -224,6 +224,48 @@ body{
   
   /* feature section styles */
 
+  /* ................... */
+
+  /* some-facts section */
+  .some-facts{
+    margin: 120px auto 0 auto;
+  }
+
+  .some-facts-content{
+    width: 50%;
+  }
+
+  .some-facts-content h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #131313;
+    font-weight: 700;
+    padding-left: 23px;
+ }
+
+ .some-facts-content p{
+   color: #727272;
+   padding-left: 23px;
+ }
+
+ .some-facts-boxes{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+ }
+
+ .common-boxes {
+  background: #fff;
+  border: 2px solid #FF900E;
+  padding: 20px;
+  width: 200px;
+  height: 180px;
+  text-align: center;
+  line-height: 30px;
+ }
+  /* some-facts section */
+
   
 /* main section styles */
 
@@ -257,12 +299,18 @@ body{
         gap: 30px;
      }
 
+     .some-facts-boxes {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+     }
+
      .teams-image{
         grid-template-columns: 1fr;
         padding-left: 0px;
      }
 
-     .teams-content, .feature-content{
+     .teams-content, .feature-content, .some-facts-content{
       padding: 0px;
       width: 100%;
      }
@@ -290,7 +338,13 @@ body{
     .feature-image .btn-feature .experience{
       font-size: 1rem;
     }
-
+ 
+    .some-facts-content{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    
 
   }
 /* responsive for mobile device */
@@ -319,6 +373,15 @@ body{
     margin: 0px;
     width: 100%;
    }
+
+   .some-facts-boxes {
+    flex-direction: row;
+    gap: 30px;
+   }
+
+   .some-facts-content{
+    width: 90%;
+  }
 
 }
 /* responsive for medium device */
