@@ -108,12 +108,13 @@ body{
 
   .teams-content{
     width: 50%;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .teams-image{
     width: 50%;
+    padding-left: 25px;
   }
 
   .teams-image img{
@@ -147,8 +148,90 @@ body{
   }
   /* teams featured section styles */
 
+  /* ............................ */
+
+
+  /* feature section styles */
+
+  .feature{
+    display: flex;
+    margin: 70px auto;
+    justify-content: space-between;
+  }
+
+  .feature-content{
+    width: 45%;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .love-enjoy h1{
+     font-size: 2.8rem;
+     margin-bottom: 10px;
+     color: #131313;
+     font-weight: 700;
+     padding-left: 23px;
+  }
+
+  .love-enjoy p{
+    color: #727272;
+  }
+
+  .f-content-common{
+     padding-left:23px ;
+  }
+
+  .f-content-common h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #131313;
+    font-weight: 600;
+  }
+
+  .f-content-common p{
+    color: #727272;
+  }
+
+  .feature-image{
+    position: relative;
+    width: 55%;
+  }
+
+  .feature-image img{
+    margin-left: 30px;
+    width: 95%;
+    border-radius: 5px;
+  }
+
+  .feature-image .btn-feature {
+    padding: 28px 40px;
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: -60px;
+    left: -10px;
+    line-height: 40px;
+  }
+
+  .feature-image .btn-feature .experience{
+    font-size: 1.6rem;
+  }
+  
+  /* feature section styles */
+
   
 /* main section styles */
+
+
+
+
+
+
 
 
 
@@ -164,11 +247,11 @@ body{
         gap: 20px;
      }
 
-     /* .banner-title {
+     .banner-title {
         font-size: 2rem;
-     } */
+     }
 
-     .teams-featured{
+     .teams-featured, .feature{
         flex-direction: column;
         width: 100%;
         gap: 30px;
@@ -179,13 +262,35 @@ body{
         padding-left: 0px;
      }
 
-     .teams-content{
+     .teams-content, .feature-content{
+      padding: 0px;
       width: 100%;
      }
 
-     .teams-image{
+     .teams-image, .feature-image{
+      padding-left: 0px;
+      margin-left: 0px;
       width: 100%;
      }
+
+     .feature-image .btn-feature {
+      padding: 10px 20px;
+      background: #FF900E;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 700;
+      position: absolute;
+      bottom: -40px;
+      left: -10px;
+      line-height: 40px;
+    }
+
+    .feature-image .btn-feature .experience{
+      font-size: 1rem;
+    }
+
 
   }
 /* responsive for mobile device */
@@ -196,23 +301,22 @@ body{
         padding: 50px;
     }
 
-    nav{
-        flex-direction: column;
-        gap: 20px;
-     }
 
-    .teams-featured{
+    .teams-featured, .feature{
       flex-direction: column;
       width: 100%;
       gap: 30px;
    }
 
-   .teams-content{
-    padding: 0;
+   .teams-content, .feature-content{
+    padding: 0px;
+    margin: 0px;
     width: 100%;
    }
 
-   .teams-image{
+   .teams-image, .feature-image{
+    padding: 0px;
+    margin: 0px;
     width: 100%;
    }
 
